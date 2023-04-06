@@ -4,7 +4,7 @@ function DropdownWithSearch(props) {
     datas: [{id: 1, name: 'valami', telephely: 'telephely neve'}]. ilyen formátumban kell lennie, a telephely opcionális, a teljes adattömb 
     value: [{id: 1, name: 'valami', telephely: 'telephely neve'}]. ilyen formátumban kell lennie, a kiválasztott sorokat tartalmazza
     onChange: visszaadja a kiválasztott sor adattömbjét: [{id: 1, name: 'valami', telephely: 'telephely neve'}]
-
+    pl.: onChange={(data) => handler(data)}
     importálni kell: 
 
     import { makeStyles, useTheme } from '@material-ui/core/styles';
