@@ -1,0 +1,73 @@
+input[type="date"]{
+  font-family: "Roboto Mono",monospace;
+  padding: 4px;
+  color: #000000;
+  font-size: 18px;
+  border: none;
+  border-bottom: 3px solid #1976d2;
+  cursor: pointer;
+  transition: background-color 0.5s linear;
+    -o-transition: background-color 0.5s linear;
+    -ms-transition: background-color 0.5s linear;
+    -moz-transition: background-color 0.5s linear;
+    -webkit-transition: background-color 0.5s linear;
+}
+
+input[type="date"]:hover {
+  background-color: #1976d21a;
+}
+
+::-webkit-calendar-picker-indicator{
+  cursor: pointer;
+}
+
+.custom-button {
+  border-top: 1px solid transparent;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #1976d2;
+  background-color: #fff;
+  padding: 4px 6px;
+  transition: background-color 0.5s linear;
+    -o-transition: background-color 0.5s linear;
+    -ms-transition: background-color 0.5s linear;
+    -moz-transition: background-color 0.5s linear;
+    -webkit-transition: background-color 0.5s linear;
+}
+
+.custom-button:hover {
+  background-color: #1976d2;
+}
+
+.custom-button svg {
+  color: #1976d2!important;
+  transition: background-color 0.5s linear;
+    -o-transition: background-color 0.5s linear;
+    -ms-transition: background-color 0.5s linear;
+    -moz-transition: background-color 0.5s linear;
+    -webkit-transition: background-color 0.5s linear;
+}
+
+.custom-button-group button:first-child {
+  border-top-left-radius: 0.3rem;
+}
+
+.custom-button-group button:last-child {
+  border-top-right-radius: 0.3rem;
+}
+
+.custom-button:hover svg {
+  color: #ffffff!important;
+}
+
+.custom-text {
+  border: none;
+  border-bottom: 3px solid #1976d2;
+  padding: 4px 6px;
+  font-size: 14px;
+}
+
+.custom-text:focus {
+  border: none;
+  outline: 3px solid #1976d2;
+}
